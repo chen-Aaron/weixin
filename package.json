@@ -1,0 +1,19 @@
+{
+  "name": "weixin",
+  "version": "1.0.0",
+  "description": "微信后台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "微信后台"
+  ],
+  "author": "chen",
+  "license": "ISC",
+  "dependencies": {
+    "koa-router": "^7.4.0",
+    "koa-sslify": "^2.1.2",
+    "node-fetch": "^2.1.2"
+  }
+}
