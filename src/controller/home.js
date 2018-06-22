@@ -24,7 +24,19 @@ const Home = {
 
         let json = await res.json();
 
-        html.rows = json.auto;
+        let rows = [];
+
+        json.auto.forEach((item)=>{
+
+            if(item.noCount > 1000){
+
+                rows.push(item)
+
+            }
+
+        })
+
+        html.rows = rows;
 
         ctx.body = html
 
