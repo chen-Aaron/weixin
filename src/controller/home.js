@@ -28,7 +28,7 @@ const Home = {
 
         json.auto.forEach((item)=>{
 
-            if(item.noCount > 1000){
+            if(item.noCount > 300){
 
                 rows.push(item)
 
@@ -43,22 +43,5 @@ const Home = {
     }
 
 }
-
-// async function log(ctx) {
-//     try {
-
-//         let res = await fetch('http://www.kuaidi100.com/autonumber/autoComNum?resultv2=1&text=561005181080')
-
-//         let json = await res.json();
-
-//         console.log(json);
-
-//     } catch (e) {
-
-//         console.log(e)
-
-//     }
-
-// }
 
 module.exports = Home
