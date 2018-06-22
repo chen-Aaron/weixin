@@ -8,6 +8,8 @@ module.exports = app => {
 
     router.get('/home', Controller.Home)
 
+    router.get('/detail', Controller.detail)
+
     app.use(router.routes())
 
 }

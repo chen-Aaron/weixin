@@ -1,7 +1,9 @@
-const home = require('./home.js')
+const home = require('./home')
+
+const detail = require('./detail')
 
 const Index = {};
 
-Object.assign(Index, home)
+Object.assign(Index, home, detail)
 
 module.exports = Index
